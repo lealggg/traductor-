@@ -80,6 +80,8 @@ if result:
         input_language = "zh-cn"
     elif in_lang == "Japonés":
         input_language = "ja"
+     elif out_lang == "frances":
+        output_language = "fr"
     
     out_lang = st.selectbox(
         "Selecciona el lenguaje de salida",
